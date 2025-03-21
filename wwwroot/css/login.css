@@ -1,0 +1,56 @@
+﻿/* Center the login page */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center; /* Center text inside container */
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Left side: Form container */
+.login-form-container {
+    width: 40%;
+    padding-bottom: 10%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+   
+}
+
+/* Right side: Image container */
+.login-image-container {
+    width: 60%;
+    height: 100%;
+    padding-bottom: 60%;
+    background: url('/images/login.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* Input fields */
+.login-form-container .form-floating {
+    margin-bottom: 15px;
+}
+
+/* Button styles */
+.login-form-container button {
+    margin-top: 10px;
+    width: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .login-container {
+        flex-direction: column;
+    }
+
+    .login-image-container {
+        display: none;
+    }
+
+    .login-form-container {
+        width: 80%;
+    }
+}

@@ -1,0 +1,45 @@
+﻿@font-face {
+    font-family: 'Maranatha';
+    src: url('/fonts/Maranatha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('/fonts/Ailerons.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Maranatha', sans-serif;
+    
+}
+/* Background Image for Home Page */
+.home-container {
+    background: url('/images/main.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: black; /* Ensure text is visible */
+}
+
+/* Change Button Color to Cream */
+.home-container .btn-primary {
+    background-color: #f5deb3; /* Cream color */
+    border-color: #f5deb3; /* Match border */
+    color: black; /* Text color */
+    font-family: 'Maranatha', sans-serif;
+        
+}
+
+/* Button Hover Effect */
+.home-container .btn-primary:hover {
+    background-color: #e5cfa3; /* Slightly darker cream */
+    border-color: #e5cfa3;
+}

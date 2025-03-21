@@ -1,0 +1,58 @@
+﻿/* Center the register page */
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center; /* Center text inside container */
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+/* Left side: Form container */
+.register-form-container {
+    width: 40%;
+    padding-bottom: 10%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+/* Right side: Image container */
+.register-image-container {
+    width: 60%;
+    height: 100%;
+    padding-bottom: 60%;
+    background: url('/images/signup.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* Input fields */
+.register-form-container .form-floating {
+    margin-bottom: 15px;
+}
+
+/* Button styles */
+.register-form-container button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .register-container {
+        flex-direction: column;
+    }
+
+    .register-image-container {
+        display: none;
+    }
+
+    .register-form-container {
+        width: 80%;
+    }
+}
