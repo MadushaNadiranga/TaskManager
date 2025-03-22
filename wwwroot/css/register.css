@@ -1,17 +1,34 @@
-﻿/* Center the register page */
+﻿@font-face {
+    font-family: 'Maranatha';
+    src: url('/fonts/Maranatha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Center the register page */
 .register-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     text-align: center; /* Center text inside container */
+    font-family: 'Maranatha', sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-   
+    font-family: 'Maranatha', sans-serif;
+    color: #7f5539;
+}
+h2 {
+    color: #7f5539;
+}
+p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Maranatha', sans-serif;
+    color: #7f5539;
 }
 
 /* Left side: Form container */

@@ -10,11 +10,12 @@
     src: url('/fonts/Ailerons.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    
 }
 
 h1 {
     font-family: 'Maranatha', sans-serif;
-    
+    color: #7f5539;
 }
 /* Background Image for Home Page */
 .home-container {
