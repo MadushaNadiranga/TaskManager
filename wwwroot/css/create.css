@@ -1,0 +1,22 @@
+﻿/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+}
+
+@font-face {
+    font-family: 'Maranatha';
+    src: url('/fonts/Maranatha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Centering the form heading */
+h2 {
+    text-align: center;
+    color: #7f5539;
+    margin-bottom: 20px;
+    font-family: 'Maranatha', sans-serif;
+}
+

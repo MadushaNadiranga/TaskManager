@@ -1,5 +1,7 @@
 ﻿@model TaskManager.Models.TaskModel
 
+<link rel="stylesheet" href="~/css/create.css" asp-append-version="true" />
+
 @{
     ViewData["Title"] = "Create Task";
 }
@@ -23,6 +25,7 @@
             <option>Completed</option>
         </select>
     </div>
+    <br>
     <button type="submit" class="btn btn-success">Create</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>

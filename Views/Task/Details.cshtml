@@ -1,20 +1,28 @@
 ﻿@model TaskManager.Models.TaskModel
 
+<link rel="stylesheet" href="~/css/details.css" asp-append-version="true" />
+
 @{
     ViewData["Title"] = "Task Details";
 }
 
-<h2>Task Details</h2>
+<link rel="stylesheet" href="~/css/task-details.css" />
 
-<div>
-    <strong>Title:</strong> @Model.Title
-</div>
-<div>
-    <strong>Description:</strong> @Model.Description
-</div>
-<div>
-    <strong>Status:</strong> @Model.Status
+<div class="task-details-container">
+    <h2>Task Details</h2>
+
+    <div>
+        <strong>Title:</strong> @Model.Title
+    </div>
+    <div>
+        <strong>Description:</strong> @Model.Description
+    </div>
+    <div>
+        <strong>Status:</strong> @Model.Status
+    </div>
+
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </div>
 
-<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
-<a asp-action="Index" class="btn btn-secondary">Back to List</a>
+
+
